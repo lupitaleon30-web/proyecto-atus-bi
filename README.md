@@ -1,4 +1,10 @@
-# Análisis de Accidentes de Tránsito Fatales en México (2021–2023)
+# Análisis de Accidentes de Tránsito Fatales en México (2021–2023)  
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/Aurora_PostgreSQL-AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Registros](https://img.shields.io/badge/Registros-1%2C145%2C653-004B87?style=flat-square)
+![INEGI](https://img.shields.io/badge/Fuente-INEGI_ATUS-lightgrey?style=flat-square)  
 
 **Alumna:** Guadalupe León Morales  
 **Módulo 4:** Proyecto Final  
@@ -51,7 +57,7 @@ Proyecto_Final/
 | Atributo | Detalle |
 |---|---|
 | Fuente | INEGI — Programa ATUS |
-| URL descarga | https://www.inegi.org.mx/programas/accidentes/ |
+| URL descarga | [INEGI - DATOS] https://www.inegi.org.mx/programas/accidentes/ |
 | Formato | DBF (microdatos anuales) |
 | Años | 2021, 2022 y 2023 |
 | Total de registros | 1,145,653 accidentes |
@@ -195,7 +201,7 @@ El dashboard tiene **2 páginas** con un total de **6 visualizaciones**.
 | # | Visualización | Pregunta que responde |
 |---|---|---|
 | 1 | Barras horizontales por estado | ¿Dónde ocurren más accidentes fatales? |
-| 2 | Gráfico de anillos por franja horaria | ¿En qué momento del día hay más riesgo? |
+| 2 | Gráfico de comlumnas por franja horaria | ¿En qué momento del día hay más riesgo? |
 | 3 | Línea por día de la semana | ¿Qué días son más peligrosos? |
 | 4 | Circular por causa presunta | ¿Qué factores predominan en accidentes fatales? |
 
@@ -216,7 +222,7 @@ Al seleccionar un día en la gráfica, se visualiza el total registrado para ese
 
 El análisis de 1,145,653 accidentes registrados entre 2021 y 2023 revela patrones claros de concentración del riesgo fatal. El **Estado de México** lidera con 1,241 accidentes fatales, seguido por Jalisco (920) y Chihuahua (864). En términos temporales, la **franja de madrugada (0–5 h)** concentra la mayor tasa de fatalidad relativa, aunque el volumen absoluto es más alto en la tarde-noche (18–21 h), cuando se combina mayor tráfico con condiciones de oscuridad.
 
-Los **domingos** concentran significativamente más muertes (2,785) que cualquier otro día — casi el doble que los martes (1,284). Este patrón es consistente en los tres años analizados. La **causa presunta más frecuente es el conductor** (91.45% de los casos), lo que apunta a factores humanos como velocidad, distracción o alcohol. La consulta LAG confirma que Estado de México, Jalisco y Chihuahua empeoraron su tendencia entre 2021 y 2023.
+Los **domingos** registra el mayor número de accidentes fatales (2,785) que cualquier otro día — casi el doble que los martes (1,284). Este patrón es consistente en los tres años analizados. La **causa presunta más frecuente es el conductor** (91.45% de los casos), lo que apunta a factores humanos como velocidad, distracción o alcohol. La consulta LAG confirma que Estado de México, Jalisco y Chihuahua empeoraron su tendencia entre 2021 y 2023.
 
 ---
 
