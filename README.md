@@ -33,8 +33,8 @@ Proyecto_Final/
 ├── README.md
 ├── datasets/
 │   ├── ATUS_21.DBF          ← microdatos INEGI 2021 (356,315 registros)
-│   ├── ATUS_22.DBF          ← microdatos INEGI 2022 (389,002 registros)
-│   └── ATUS_23.DBF          ← microdatos INEGI 2023 (400,336 registros)
+│   ├── ATUS_22.DBF          ← microdatos INEGI 2022 (392,710 registros)
+│   └── ATUS_23.DBF          ← microdatos INEGI 2023 (396,628 registros)
 ├── scripts/
 │   ├── 01_schema_ddl.sql              ← esquema estrella en Aurora PostgreSQL
 │   ├── etl_pipeline.py                ← pipeline ETL completo
@@ -124,6 +124,20 @@ Evidencia de carga exitosa:
 
 ![etl validacion](docs/etl_validacion.png)
 
+---  
+## Arquitectura de la solución
+
+```text
+Archivos DBF (INEGI)
+          ↓
+      ETL Python
+          ↓
+ Amazon Aurora PostgreSQL
+          ↓
+ Consultas SQL Analíticas
+          ↓
+   Dashboard Power BI
+```
 ---
 
 ## Cómo reproducir el proyecto
@@ -227,7 +241,7 @@ Al seleccionar un día en la gráfica, se visualiza el total registrado para ese
 
 El análisis de 1,145,653 accidentes registrados entre 2021 y 2023 revela patrones claros de concentración del riesgo fatal. El **Estado de México** lidera con 1,241 accidentes fatales, seguido por Jalisco (920) y Chihuahua (864). En términos temporales, la **franja de madrugada (0–5 h)** concentra la mayor tasa de fatalidad relativa, aunque el volumen absoluto es más alto en la tarde-noche (18–21 h), cuando se combina mayor tráfico con condiciones de oscuridad.
 
-Los **domingos** registra el mayor número de accidentes fatales (2,785) que cualquier otro día — casi el doble que los martes (1,284). Este patrón es consistente en los tres años analizados. La **causa presunta más frecuente es el conductor** (91.45% de los casos), lo que apunta a factores humanos como velocidad, distracción o alcohol. La consulta LAG confirma que Estado de México, Jalisco y Chihuahua empeoraron su tendencia entre 2021 y 2023.
+Los **domingos** registran el mayor número de accidentes fatales (2,785) que cualquier otro día — casi el doble que los martes (1,284). Este patrón es consistente en los tres años analizados. La **causa presunta más frecuente es el conductor** (91.45% de los casos), lo que apunta a factores humanos como velocidad, distracción o alcohol. La consulta LAG confirma que Estado de México, Jalisco y Chihuahua empeoraron su tendencia entre 2021 y 2023.
 
 ---
 
