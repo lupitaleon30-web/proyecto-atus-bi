@@ -207,8 +207,9 @@ El dashboard tiene **2 páginas** con un total de **6 visualizaciones**.
 |---|---|---|
 | 5 | Tarjeta de día de la semana | La tarjeta muestra el total del día seleccionado |
 | 6 | Tarjeta de total de accidentes | Muestra el conteo actualizado al aplicar filtros |
+---
+Al seleccionar un día en la gráfica, se visualiza el total registrado para ese día en la tarjeta.
 
-Al seleccionar un día en la gráfica, se visualiza el total registrado para ese día en la tarjeta.  
 ---
 
 ## Hallazgos principales
