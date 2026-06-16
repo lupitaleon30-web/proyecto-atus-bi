@@ -257,3 +257,9 @@ Los **domingos** registran el mayor número de accidentes fatales (2,785) que cu
 | Power BI Desktop | Dashboard interactivo (2 páginas) |
 | DBeaver | Cliente SQL y administración de Aurora |
 | GitHub | Control de versiones y entrega |
+---
+---
+
+## Conclusión
+
+Este proyecto demuestra la aplicación de técnicas de Business Intelligence para transformar datos públicos en información útil para la toma de decisiones. Mediante la integración de Python, Amazon Aurora PostgreSQL y Power BI fue posible construir una solución analítica completa que permite identificar patrones de riesgo asociados a accidentes fatales de tránsito en México.
