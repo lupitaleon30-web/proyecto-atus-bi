@@ -99,7 +99,6 @@ La solución se desplegó sobre **Amazon Aurora PostgreSQL**.
 
 ![Cluster Aurora en AWS](docs/aurora_cluster.png)
 
-![Tablas en DBeaver](docs/aurora_tablas.png)
 
 | Parámetro | Valor |
 |---|---|
