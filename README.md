@@ -1,5 +1,9 @@
 # Análisis de Accidentes de Tránsito Fatales en México (2021–2023)  
-
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/Aurora_PostgreSQL-AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Registros](https://img.shields.io/badge/Registros-1%2C145%2C653-004B87?style=flat-square)
+![INEGI](https://img.shields.io/badge/Fuente-INEGI_ATUS-lightgrey?style=flat-square) 
 **Alumna:** Guadalupe León Morales  
 **Módulo 4:** Proyecto Final  
 **Profesor:** Oscar Daniel Álvarez Cerna  
@@ -7,14 +11,6 @@
 
 ---
 ## Resumen ejecutivo  
-
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/Aurora_PostgreSQL-AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Registros](https://img.shields.io/badge/Registros-1%2C145%2C653-004B87?style=flat-square)
-![INEGI](https://img.shields.io/badge/Fuente-INEGI_ATUS-lightgrey?style=flat-square)  
-
-
 Se analizaron 1,145,653 accidentes de tránsito registrados en México entre 2021 y 2023 utilizando información del programa ATUS del INEGI. Para ello se desarrolló una solución de Business Intelligence basada en Amazon Aurora PostgreSQL, un proceso ETL en Python y un dashboard interactivo en Power BI.
 
 El proyecto permite identificar patrones espaciales, temporales y humanos asociados a los accidentes fatales, proporcionando evidencia útil para apoyar estrategias de prevención vial y toma de decisiones basadas en datos.
