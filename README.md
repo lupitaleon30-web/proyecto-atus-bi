@@ -57,7 +57,7 @@ Proyecto_Final/
 | Atributo | Detalle |
 |---|---|
 | Fuente | INEGI — Programa ATUS |
-| URL descarga | [INEGI - DATOS] https://www.inegi.org.mx/programas/accidentes/ |
+| URL descarga | https://www.inegi.org.mx/programas/accidentes/ |
 | Formato | DBF (microdatos anuales) |
 | Años | 2021, 2022 y 2023 |
 | Total de registros | 1,145,653 accidentes |
