@@ -3,7 +3,7 @@
 ![PostgreSQL](https://img.shields.io/badge/Aurora_PostgreSQL-AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Registros](https://img.shields.io/badge/Registros-1%2C145%2C653-004B87?style=flat-square)
-![INEGI](https://img.shields.io/badge/Fuente-INEGI_ATUS-lightgrey?style=flat-square) 
+![INEGI](https://img.shields.io/badge/Fuente-INEGI_ATUS-lightgrey?style=flat-square)   
 **Alumna:** Guadalupe León Morales  
 **Módulo 4:** Proyecto Final  
 **Profesor:** Oscar Daniel Álvarez Cerna  
