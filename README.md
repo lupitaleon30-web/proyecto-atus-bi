@@ -33,14 +33,13 @@ Proyecto_Final/
 └── Docs/
     ├── diagrama_modelo.png        ← esquema estrella
     ├── aurora_cluster.png         ← evidencia cluster AWS
-    ├── aurora_tablas.png          ← tablas en DBeaver
     ├── etl_validacion.png         ← validación post-carga
     ├── consulta_1.png
     ├── consulta_2.png
     ├── consulta_3.png
     ├── consulta_4.png
     ├── consulta_5.png
-    ├── consulta_6.png             ← query LAG variación año a año
+    ├── consulta_6.png             
     ├── dashboard_final.png        ← vista general Página 1
     └── dashboard_interactivo.png  ← filtro activo Página 2
 ```
