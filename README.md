@@ -97,9 +97,9 @@ Se diseñó un **esquema estrella** con grano de un accidente por fila, optimiza
 
 La solución se desplegó sobre **Amazon Aurora PostgreSQL**.
 
-![Cluster Aurora en AWS](Docs/aurora_cluster.png)
+![Cluster Aurora en AWS](docs/aurora_cluster.png)
 
-![Tablas en DBeaver](Docs/aurora_tablas.png)
+![Tablas en DBeaver](docs/aurora_tablas.png)
 
 | Parámetro | Valor |
 |---|---|
@@ -157,11 +157,11 @@ total_victimas:        278,852
 
 ### 5. Ejecutar las consultas analíticas
 
-Abrir `Scripts/02_consultas_analiticas.sql` en DBeaver y ejecutar las 6 consultas una por una. Resultados capturados en `Docs/consulta_1.png` a `Docs/consulta_6.png`.
+Abrir `scripts/02_consultas_analiticas.sql` en DBeaver y ejecutar las 6 consultas una por una. Resultados capturados en `docs/consulta_1.png` a `Docs/consulta_6.png`.
 
 ### 6. Abrir el dashboard
 
-Abrir `Dashboard/dashboard_accidentes_atus.pbix` con **Power BI Desktop** (descarga gratuita en microsoft.com/power-bi).
+Abrir `dashboard/dashboard_accidentes_atus.pbix` con **Power BI Desktop** (descarga gratuita en microsoft.com/power-bi).
 
 ---
 
@@ -176,19 +176,19 @@ Abrir `Dashboard/dashboard_accidentes_atus.pbix` con **Power BI Desktop** (desca
 | 5 | GROUP BY + `COUNT FILTER` | Combinación día × hora × zona × causa más peligrosa |
 | 6 | CTE + `LAG() OVER` | Variación año a año de fatales por estado (2021→2022→2023) |
 
-Evidencia: `Docs/consulta_1.png` a `Docs/consulta_6.png`
+Evidencia: `docs/consulta_1.png` a `docs/consulta_6.png`
 
 ---
 
 ## Dashboard
 
-Desarrollado en **Power BI Desktop** — archivo: `Dashboard/dashboard_accidentes_atus.pbix`
+Desarrollado en **Power BI Desktop** — archivo: `dashboard/dashboard_accidentes_atus.pbix`
 
 El dashboard tiene **2 páginas** con un total de **6 visualizaciones**.
 
 ### Página 1 — Vista general
 
-![Dashboard general](Docs/dashboard_final.png)
+![Dashboard general](docs/dashboard_final.png)
 
 | # | Visualización | Pregunta que responde |
 |---|---|---|
@@ -199,7 +199,7 @@ El dashboard tiene **2 páginas** con un total de **6 visualizaciones**.
 
 ### Página 2 — Vista interactiva
 
-![Dashboard interactivo](Docs/dashboard_interactivo.png)
+![Dashboard interactivo](docs/dashboard_interactivo.png)
 
 | # | Elemento | Descripción |
 |---|---|---|
