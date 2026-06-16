@@ -15,9 +15,9 @@
 ![INEGI](https://img.shields.io/badge/Fuente-INEGI_ATUS-lightgrey?style=flat-square)  
 
 
-Se analizaron 1,145,653 accidentes de tránsito registrados en México entre 2021 y 2023 utilizando información del programa ATUS del INEGI. Para ello se desarrolló una solución completa de Business Intelligence basada en Amazon Aurora PostgreSQL, un proceso ETL en Python y un dashboard interactivo en Power BI.
+Se analizaron 1,145,653 accidentes de tránsito registrados en México entre 2021 y 2023 utilizando información del programa ATUS del INEGI. Para ello se desarrolló una solución de Business Intelligence basada en Amazon Aurora PostgreSQL, un proceso ETL en Python y un dashboard interactivo en Power BI.
 
-Los resultados muestran que el Estado de México concentra el mayor número de accidentes fatales, la franja de madrugada presenta el mayor riesgo relativo y los fines de semana registran una mayor concentración de accidentes fatales. Asimismo, la principal causa asociada a estos eventos corresponde a factores relacionados con el conductor.
+El proyecto permite identificar patrones espaciales, temporales y humanos asociados a los accidentes fatales, proporcionando evidencia útil para apoyar estrategias de prevención vial y toma de decisiones basadas en datos.
 ## Pregunta analítica
 
 > ¿Qué combinación de día de la semana, hora, tipo de zona y causa presunta concentra la mayor proporción de accidentes con víctimas fatales en México?
