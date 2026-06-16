@@ -71,7 +71,7 @@ Se diseñó un **esquema estrella** con grano de un accidente por fila, optimiza
 
 ### Diagrama
 
-![Diagrama del esquema estrella](Docs/diagrama_modelo.png)
+![Diagrama del esquema estrella](docs/diagrama_modelo.png)
 
 ### Tablas
 
