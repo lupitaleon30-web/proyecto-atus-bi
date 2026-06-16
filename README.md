@@ -109,7 +109,7 @@ La solución se desplegó sobre **Amazon Aurora PostgreSQL**.
 | Registros en fact_accidente | 1,145,653 |
 | Índices | 7 |
 
-Evidencia de carga exitosa: ver `Docs/etl_validacion.png`
+Evidencia de carga exitosa: ver `docs/etl_validacion.png`
 
 ---
 
