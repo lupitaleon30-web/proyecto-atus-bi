@@ -110,6 +110,7 @@ La solución se desplegó sobre **Amazon Aurora PostgreSQL**.
 
 Evidencia de carga exitosa:  
 
+
 ![etl validacion](docs/etl_validacion.png)
 
 ---
