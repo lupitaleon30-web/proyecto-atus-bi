@@ -109,6 +109,7 @@ La solución se desplegó sobre **Amazon Aurora PostgreSQL**.
 | Índices | 7 |
 
 Evidencia de carga exitosa: ver `docs/etl_validacion.png`
+![etl validacion](docs/etl_validacion.png)
 
 ---
 
