@@ -201,7 +201,7 @@ El dashboard tiene **2 páginas** con un total de **6 visualizaciones**.
 | # | Visualización | Pregunta que responde |
 |---|---|---|
 | 1 | Barras horizontales por estado | ¿Dónde ocurren más accidentes fatales? |
-| 2 | Gráfico de comlumnas por franja horaria | ¿En qué momento del día hay más riesgo? |
+| 2 | Gráfico de columnas por franja horaria | ¿En qué momento del día hay más riesgo? |
 | 3 | Línea por día de la semana | ¿Qué días son más peligrosos? |
 | 4 | Circular por causa presunta | ¿Qué factores predominan en accidentes fatales? |
 
